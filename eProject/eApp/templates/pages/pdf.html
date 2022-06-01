@@ -1,0 +1,20 @@
+﻿{% extends 'easy_pdf/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container">
+
+	<div id="content">
+		<h1>FIRSTNAME: {{obj.fname}}</h1>
+		<h1>LASTNAME: {{obj.lname}}</h1>
+		<h1>EMAIL: {{obj.email}}</h1>
+		<h1>Address: {{obj.address}}</h1>
+	</div>
+
+
+</div>
+
+
+
+{% endblock content %}
